@@ -38,7 +38,10 @@ namespace Snake_IT3B
             {
                 smer1+=0.1;
             }
-            else if()
+            else if(e.KeyCode==Keys.D)
+            {
+                smer1 -= 0.1;
+            }
         }
 
         private void Timer_Tick(object sender, EventArgs e)
