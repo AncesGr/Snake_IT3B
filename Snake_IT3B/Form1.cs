@@ -24,8 +24,8 @@ namespace Snake_IT3B
         public Form1()
         {
             InitializeComponent();
-            KeyPreview = true;
-            KeyDown += Form1_KeyDown;
+            this.KeyPreview = true;
+            this.KeyDown += Form1_KeyDown;
             VytvorHady();
             timer = new Timer();
             timer.Interval = 50;
